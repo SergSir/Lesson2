@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onClickNewToast(View view) {
         Toast toast = Toast.makeText(getApplicationContext(),
-                "СТУДЕНТ № 18 ГРУППА БСБО-06-21 Количество символов - " +
+                "СТУДЕНТ № 14 ГРУППА БСБО-06-21 Количество символов - " +
                         MyName.getText().length(),
                 Toast.LENGTH_SHORT);
         toast.show();
